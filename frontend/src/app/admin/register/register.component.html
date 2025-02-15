@@ -1,1 +1,39 @@
-<p>register works!</p>
+<div class="register-container">
+    <form class="register-form">
+      <h2>Register</h2>
+  
+      <!-- Name Input -->
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+  
+      <!-- Role Selection -->
+      <div class="form-group">
+        <label for="role">Role</label>
+        <select id="role">
+          <option value="admin">Admin</option>
+          <option value="farmer">Farmer</option>
+        </select>
+      </div>
+  
+      <!-- Email Input -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+  
+      <!-- Password Input -->
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+      </div>
+  
+      <!-- Submit Button -->
+      <button type="submit" class="register-btn">Register</button>
+  
+      <!-- Login Redirect -->
+      <p class="login-link">Already have an account? <a href="/login">Login</a></p>
+    </form>
+  </div>
+  
