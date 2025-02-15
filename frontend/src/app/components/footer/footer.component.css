@@ -1,0 +1,56 @@
+.footer {
+    background-color: #5d4037; /* Dark brown for a farm feel */
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .footer h5 {
+    color: #ffcc80; /* Light orange for contrast */
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color: #ffcc80;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffcc80;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #fff;
+  }
+  
+  hr {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  

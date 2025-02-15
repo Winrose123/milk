@@ -1,0 +1,31 @@
+.bg-milk {
+    background-color: #fff9e6; /* Soft milk-like color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #5d4037; /* Dairy farm brown */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #5d4037;
+    transition: 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ff9800; /* Warm cream color */
+  }
+  
+  .navbar-toggler {
+    border-color: #5d4037;
+  }
+  
+  .dropdown-menu {
+    background-color: #fff9e6;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #ffcc80;
+  }
+  
